@@ -34,8 +34,8 @@ function(morpheus_utils_configure_mrc)
     INSTALL_EXPORT_SET
       ${PROJECT_NAME}-exports
     CPM_ARGS
-      GIT_REPOSITORY  https://github.com/nv-morpheus/MRC.git
-      GIT_TAG         branch-${MRC_VERSION}
+      GIT_REPOSITORY  https://github.com/dagardner-nv/MRC.git
+      GIT_TAG         david-cudf-23.02-761
       GIT_SHALLOW     FALSE
       OPTIONS         "MRC_BUILD_EXAMPLES OFF"
                       "MRC_BUILD_TESTS OFF"
