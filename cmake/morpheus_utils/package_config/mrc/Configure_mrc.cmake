@@ -34,7 +34,7 @@ function(morpheus_utils_configure_mrc)
       ${PROJECT_NAME}-exports
     CPM_ARGS
       GIT_REPOSITORY https://github.com/dagardner-nv/MRC.git
-      GIT_TAG combined-pr
+      GIT_TAG david-gil-tls-362
       GIT_SHALLOW FALSE
       OPTIONS "MRC_BUILD_EXAMPLES OFF"
     "MRC_BUILD_TESTS OFF"
