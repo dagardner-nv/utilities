@@ -38,6 +38,7 @@ function(morpheus_utils_configure_pybind11)
       PATCH_COMMAND git checkout -- . && git apply --whitespace=fix ${CMAKE_CURRENT_FUNCTION_LIST_DIR}/patches/gil_dec_ref.patch
       OPTIONS "PYBIND11_INSTALL ON"
               "PYBIND11_TEST OFF"
+              "PYBIND11_NO_ASSERT_GIL_HELD_INCREF_DECREF=ON"
   )
 
   list(POP_BACK CMAKE_MESSAGE_CONTEXT)
