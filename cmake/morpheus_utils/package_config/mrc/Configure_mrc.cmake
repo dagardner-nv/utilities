@@ -33,7 +33,7 @@ function(morpheus_utils_configure_mrc)
     INSTALL_EXPORT_SET
       ${PROJECT_NAME}-exports
     CPM_ARGS
-      GIT_REPOSITORY git@github.com:dagardner-nv/utilities.git
+      GIT_REPOSITORY git@github.com:dagardner-nv/MRC.git
       GIT_TAG david-state-change-cb-1838-wip
       GIT_SHALLOW FALSE
       OPTIONS "MRC_BUILD_EXAMPLES OFF"
