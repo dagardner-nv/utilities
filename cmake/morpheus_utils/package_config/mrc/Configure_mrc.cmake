@@ -34,7 +34,7 @@ function(morpheus_utils_configure_mrc)
       ${PROJECT_NAME}-exports
     CPM_ARGS
       GIT_REPOSITORY git@github.com:dagardner-nv/MRC.git
-      GIT_TAG david-1838-python-threaded-queue 
+      GIT_TAG david-1838-fs2
       GIT_SHALLOW FALSE
       OPTIONS "MRC_BUILD_EXAMPLES OFF"
     "MRC_BUILD_TESTS OFF"
